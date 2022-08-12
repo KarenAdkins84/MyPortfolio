@@ -1,4 +1,9 @@
 # MyPortfolio
+
+## Deployed Application
+ https://karenadkins84.github.io/MyPortfolio/
+
+ ## About
 This is my portfolio page for full stack web development.
 There is a photo of my son and I at the beach and a brief bio of me.
 The links in the navigation bar jump to the corresponding sections on the main page.

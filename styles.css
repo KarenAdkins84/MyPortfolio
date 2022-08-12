@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    border: dashed blue 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    color:rgb(224, 134, 17);
+}
+
+h2 {
+    color:chartreuse;
+
+}
+ 
+nav {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    color:blue;
+}
+
+a {
+    color: hotpink;
+    padding: 10px;
+    text-decoration: none;
+}
+
+section.about {
+    border: dashed blue 5px;
+    height: 400px;
+    background-color: black;
+    color: hotpink;
+    padding-top: 100px;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+section.projects {
+    display: flexbox;
+    flex-wrap: wrap;
+    border: dashed blue 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    color:blue;
+    text-align:center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+
+  
+  .about {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pic {
+    border: 3px dashed blueviolet;
+    background-color: black;
+    margin: auto;
+  }
+  
+  .bio {
+    border: 3px dashed blueviolet;
+    background-color: black;
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    color:chartreuse;
+  }
+
+footer {
+    color: hotpink;
+    text-align: center;
+}
+
+.link:hover {
+    -webkit-filter: brightness(150%);
+    
+
+}
+.projectcontainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.secondary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

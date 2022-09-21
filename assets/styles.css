@@ -108,3 +108,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.top-pic {
+    width: 250px;
+    height: 200px;
+}
